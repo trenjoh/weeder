@@ -1,3 +1,6 @@
+# The progam is to help us deploy ,the model we trained earlier, in Raspberry (inside geany environment).
+# The camera feed streams images while interpretors makes predictions and lables/classifies the images as thy are being streamed by the camera.
+# a preview window pops in the screen while the predictions runs in the teminal unless interrupted.
 import numpy as np
 import cv2
 
