@@ -1,0 +1,9 @@
+from google.colab import drive
+import shutil
+
+# Mount your Google Drive
+drive.mount('/content/drive')
+
+# Copy the tflite file to your Drive
+shutil.copy('/content/runs/detect/train/weights/best_saved_model/best_float32.tflite',
+            '/content/drive/MyDrive/proj/best_float32.tflite')
